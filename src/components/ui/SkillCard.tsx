@@ -7,8 +7,6 @@ interface SkillCardProps {
   skill: {
     name: string;
     level: number;
-    icon: string;
-    experience?: string;
     description?: string;
   };
   delay?: number;
@@ -66,7 +64,7 @@ export function SkillCard({ skill, delay = 0, Icon }: SkillCardProps) {
       </div>
       
       <p className="text-gray-300 font-mono text-sm leading-relaxed">
-        {getExperienceDescription(skill.name, skill.level)}
+        {skill.description || getExperienceDescription(skill.name, skill.level)}
       </p>
 
       {/* Pixel decorative border */}
