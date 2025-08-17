@@ -1,0 +1,106 @@
+{
+  "personal": {
+    "name": "Berkay Senler",
+    "title": "Graduate Software Engineer",
+    "tagline": "Crafting digital experiences with clean code and creative solutions",
+    "email": "berkaysenler229@gmail.com",
+    "location": "Sydney, Australia",
+    "avatar": "/dante.gif",
+    "bio": "Passionate software engineer with a love for creating elegant solutions to complex problems. I specialize in full-stack development with a focus on modern web technologies and user experience design.",
+    "resume": "/resumeX.pdf"
+  },
+  "social": {
+    "github": "https://github.com/berkaysenler",
+    "linkedin": "https://linkedin.com/in/berkaysenler",
+    "twitter": "https://twitter.com/berkaissu",
+    "portfolio": "https://berkaysenler.dev"
+  },
+  "skills": {
+    "frontend": [
+      { "name": "React", "level": 85, "description": "Built multiple responsive web applications using React hooks, context API, and component libraries. Experience with state management and performance optimization." },
+      { "name": "TypeScript", "level": 80, "description": "Developed type-safe applications with TypeScript, implementing interfaces, generics, and advanced type patterns for better code maintainability." },
+      { "name": "Next.js", "level": 75, "description": "Created full-stack applications using Next.js App Router, SSR, and API routes. Implemented SEO optimization and dynamic routing." },
+      { "name": "Tailwind CSS", "level": 90, "description": "Proficient in utility-first CSS framework for rapid UI development. Built custom design systems and responsive layouts." },
+      { "name": "HTML/CSS", "level": 95, "description": "Strong foundation in semantic HTML and modern CSS features including Grid, Flexbox, animations, and responsive design principles." }
+    ],
+    "backend": [
+      { "name": "Node.js", "level": 80, "description": "Built RESTful APIs and real-time applications using Express.js, implemented authentication, middleware, and database integration." },
+      { "name": "Python", "level": 75, "description": "Developed web applications with Django and Flask, data analysis scripts, and automation tools. Experience with object-oriented programming." },
+      { "name": "PostgreSQL", "level": 70, "description": "Designed and optimized relational databases, wrote complex queries, and implemented data modeling for web applications." },
+      { "name": "MongoDB", "level": 65, "description": "Worked with NoSQL databases for document-based applications, implemented aggregation pipelines and data validation." },
+      { "name": "GraphQL", "level": 60, "description": "Built GraphQL APIs with type definitions, resolvers, and mutations. Implemented client-side query optimization." }
+    ],
+    "tools": [
+      { "name": "Git", "level": 85, "description": "Version control with branching strategies, merge conflict resolution, and collaborative development workflows using GitHub." },
+      { "name": "Docker", "level": 70, "description": "Containerized applications for development and deployment, created multi-stage builds and docker-compose configurations." },
+      { "name": "AWS", "level": 65, "description": "Deployed applications using EC2, S3, and Lambda. Configured CI/CD pipelines and managed cloud infrastructure." },
+      { "name": "Jest", "level": 75, "description": "Wrote unit and integration tests for JavaScript applications, implemented test-driven development practices and code coverage." },
+      { "name": "Figma", "level": 80, "description": "Created UI/UX designs, prototypes, and design systems. Collaborated with developers to implement pixel-perfect interfaces." }
+    ]
+  },
+  "experience": [
+    {
+      "company": "Tech Startup Inc.",
+      "position": "Software Engineering Intern",
+      "duration": "Jun 2024 - Aug 2024",
+      "description": "Developed and maintained React applications, collaborated with cross-functional teams, and contributed to a 20% improvement in page load times.",
+      "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL"],
+      "achievements": [
+        "Improved application performance by 20%",
+        "Implemented new user dashboard features",
+        "Contributed to design system documentation"
+      ]
+    },
+    {
+      "company": "University CS Department",
+      "position": "Teaching Assistant",
+      "duration": "Sep 2023 - May 2024",
+      "description": "Assisted in teaching introduction to programming courses, conducted lab sessions, and mentored students in software development best practices.",
+      "technologies": ["Python", "Java", "Git"],
+      "achievements": [
+        "Mentored 50+ students",
+        "Developed educational coding exercises",
+        "Maintained 95% student satisfaction rating"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Victoria University",
+      "degree": "Bachelor of Information Technology",
+      "duration": "2022 - 2025",
+      "gpa": "3.8/4.0",
+      "coursework": []
+    },
+    {
+      "institution": "University of Yalova",
+      "degree": "Bachelor of Computer Engineering",
+      "duration": "2017 - 2022",
+      "gpa": "3.8/4.0",
+      "coursework": []
+    }
+  ],
+  "projects": {
+    "selected": ["VU-AI-ASSISTANT", "NIT3213-Final-Assignment", "Gantt-Chart-Template", "html-css-kaissu-portfolio"],
+    "github_username": "berkaysenler"
+  },
+  "certifications": [
+    {
+      "name": "AWS Cloud Practitioner",
+      "issuer": "Amazon Web Services",
+      "date": "2024-03-15",
+      "credential": "https://aws.amazon.com/certification/"
+    },
+    {
+      "name": "React Developer Certification",
+      "issuer": "Meta",
+      "date": "2024-01-20",
+      "credential": "https://developers.facebook.com/certification/"
+    }
+  ],
+  "blog": {
+    "enabled": true,
+    "source": "dev.to",
+    "username": "alexjohnson"
+  }
+}

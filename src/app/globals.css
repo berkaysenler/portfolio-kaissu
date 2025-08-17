@@ -1,8 +1,14 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #0a0a0a;
+  --foreground: #ffffff;
+  --pixel-primary: #8B5CF6;
+  --pixel-secondary: #A855F7;
+  --pixel-accent: #C084FC;
+  --pixel-dark: #581C87;
+  --pixel-light: #DDD6FE;
+  --pixel-gray: #1a1a1a;
 }
 
 @theme inline {
@@ -12,15 +18,182 @@
   --font-mono: var(--font-geist-mono);
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {
   background: var(--background);
   color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: var(--font-geist-sans);
+  line-height: 1.6;
+  overflow-x: hidden;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--pixel-primary);
+  border-radius: 0;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--pixel-secondary);
+}
+
+/* Selection styles */
+::selection {
+  background: var(--pixel-primary);
+  color: black;
+}
+
+::-moz-selection {
+  background: var(--pixel-primary);
+  color: black;
+}
+
+/* Custom focus styles */
+*:focus {
+  outline: 2px solid var(--pixel-primary);
+  outline-offset: 2px;
+}
+
+/* Pixel art image rendering */
+.pixel-art {
+  image-rendering: -moz-crisp-edges;
+  image-rendering: -webkit-crisp-edges;
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* Animation utilities */
+@keyframes glow {
+  0%, 100% {
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.3);
+  }
+  50% {
+    box-shadow: 0 0 30px rgba(139, 92, 246, 0.6);
+  }
+}
+
+.animate-glow {
+  animation: glow 2s ease-in-out infinite;
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-float {
+  animation: float 3s ease-in-out infinite;
+}
+
+/* Pixel art utilities */
+.pixel-border {
+  border: 4px solid var(--pixel-primary);
+  box-shadow: 
+    inset 0 0 0 2px #000,
+    inset 0 0 0 4px var(--pixel-accent),
+    0 0 0 2px #000;
+}
+
+.pixel-shadow {
+  box-shadow: 8px 8px 0px 0px var(--pixel-dark);
+}
+
+.pixel-shadow-hover:hover {
+  box-shadow: 4px 4px 0px 0px var(--pixel-dark);
+  transform: translate(4px, 4px);
+}
+
+.pixel-button {
+  border: 3px solid var(--pixel-primary);
+  background: var(--pixel-secondary);
+  position: relative;
+}
+
+.pixel-button::before {
+  content: '';
+  position: absolute;
+  top: -3px;
+  left: -3px;
+  right: -3px;
+  bottom: -3px;
+  border: 2px solid #000;
+  pointer-events: none;
+}
+
+.pixel-glow {
+  text-shadow: 
+    0 0 8px rgba(139, 92, 246, 0.6),
+    0 0 16px rgba(139, 92, 246, 0.4);
+}
+
+@keyframes pixelPulse {
+  0%, 100% {
+    box-shadow: 0 0 3px rgba(139, 92, 246, 0.5);
+  }
+  50% {
+    box-shadow: 0 0 8px rgba(139, 92, 246, 0.8);
+  }
+}
+
+.pixel-pulse {
+  animation: pixelPulse 2s ease-in-out infinite;
+}
+
+/* Chunky text styling */
+.pixel-text {
+  text-shadow: 
+    2px 2px 0px var(--pixel-dark),
+    4px 4px 0px #000;
+}
+
+/* Spacing utilities */
+.section-spacing {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .section-spacing {
+    padding-top: 2.5rem;
+    padding-bottom: 2.5rem;
+  }
+}
+
+.card-spacing {
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 768px) {
+  .card-spacing {
+    margin-bottom: 3rem;
+  }
+}
+
+/* Responsive utilities */
+@media (max-width: 768px) {
+  .container {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
 }
