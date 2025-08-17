@@ -24,7 +24,7 @@ interface Props {
 }
 
 export function BackgroundAnimation({
-  particleCount = 400,
+  particleCount = 100,
   connectDistance = 120,
   speed = 0.6,
   colors = ['#00ff41', '#4ecdc4', '#ff6b35', '#ffffff'],
