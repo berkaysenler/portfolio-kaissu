@@ -212,8 +212,4 @@ portfolio-kai/
 
 This project is licensed under the MIT License.
 
----
 
-**Built with ❤️ by Claude Code**
-
-Transform your portfolio into a pixel-perfect showcase of your skills and experience!
