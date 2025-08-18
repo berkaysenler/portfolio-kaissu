@@ -56,16 +56,15 @@ export function Contact() {
   const isFormValid = formData.name && formData.email && formData.subject && formData.message;
 
   return (
-    <section id="contact" className="min-h-[50vh] flex items-center justify-center py-24 bg-gradient-to-b from-black to-gray-900">
+    <section id="contact" className="min-h-[50vh] flex items-center justify-center py-28 md:py-32 bg-gradient-to-b from-black to-gray-900">
       <div className="container max-w-6xl mx-auto px-6 flex flex-col items-center">
         <motion.div
-          className="text-center mb-16"
+          className="text-center mb-20"
           {...ANIMATIONS.fadeIn}
         >
           <h2 className="text-2xl md:text-4xl lg:text-5xl font-mono font-bold text-white mb-4 pixel-text">
             Get In <span className="text-violet-500 pixel-glow">Touch</span>
           </h2>
-          <div className="w-16 h-1 bg-violet-500 mx-auto mb-4 pixel-art"></div>
           <p className="text-gray-400 max-w-2xl mx-auto font-mono text-sm md:text-lg">
             Ready to start a project together or just want to say hello? I'd love to hear from you!
           </p>

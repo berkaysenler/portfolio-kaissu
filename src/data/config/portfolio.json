@@ -81,14 +81,14 @@
     }
   ],
   "projects": {
-    "selected": ["VU-AI-ASSISTANT", "NIT3213-Final-Assignment", "Gantt-Chart-Template", "html-css-kaissu-portfolio"],
+    "selected": ["VU-AI-ASSISTANT", "NIT3213-Final-Assignment", "Gantt-Chart-Template", "html-css-kaissu-portfolio", "portfolio-kaissu"],
     "github_username": "berkaysenler"
   },
   "certifications": [
     {
       "name": "AWS Cloud Practitioner",
       "issuer": "Amazon Web Services",
-      "date": "2024-03-15",
+      "date": "2024-03-15", 
       "credential": "https://aws.amazon.com/certification/"
     },
     {

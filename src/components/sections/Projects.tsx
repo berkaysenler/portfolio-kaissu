@@ -46,16 +46,15 @@ export function Projects() {
   );
 
   return (
-    <section id="projects" className="min-h-[50vh] flex items-center justify-center py-16 md:py-24 bg-gradient-to-b from-gray-900 to-black">
+    <section id="projects" className="min-h-[50vh] flex items-center justify-center py-20 md:py-28 bg-gradient-to-b from-gray-900 to-black">
       <div className="container max-w-6xl mx-auto px-4 md:px-6 flex flex-col items-center gap-3">
         <motion.div
-          className="text-center mb-16"
+          className="text-center mb-20"
           {...ANIMATIONS.fadeIn}
         >
           <h2 className="text-2xl md:text-4xl lg:text-5xl font-mono font-bold text-white mb-4 pixel-text">
             My <span className="text-violet-500 pixel-glow">Projects</span>
           </h2>
-          <div className="w-16 h-1 bg-violet-500 mx-auto mb-4 pixel-art"></div>
           <p className="text-gray-400 max-w-2xl mx-auto font-mono text-sm md:text-lg">
             Recent projects fetched directly from GitHub showcasing my development skills.
           </p>

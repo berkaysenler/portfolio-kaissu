@@ -45,7 +45,7 @@ export function AboutSkills() {
   };
 
   return (
-    <section id="about" className="min-h-[50vh] flex items-center justify-center py-8 md:py-12 bg-gradient-to-b from-black to-gray-900">
+    <section id="about" className="min-h-[50vh] flex items-center justify-center py-16 md:py-20 bg-gradient-to-b from-black to-gray-900">
       <div className="container max-w-7xl mx-auto px-4 md:px-6 flex justify-center">
         <div className="w-full grid md:grid-cols-1 lg:grid-cols-2 gap-8 md:gap-12">
           {/* About Me Section - Takes 1 column */}
@@ -64,7 +64,7 @@ export function AboutSkills() {
               
             </div>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 md:gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-10">
               <div className="bg-gray-800 border-4 border-gray-700 p-6 pixel-shadow">
                 <h3 className="text-2xl font-mono font-bold text-violet-400 mb-4 pixel-text flex items-center gap-2">
                   <Rocket className="mr-3" size={24} />
