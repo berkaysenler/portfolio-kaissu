@@ -6,7 +6,7 @@
     "email": "berkaysenler229@gmail.com",
     "location": "Sydney, Australia",
     "avatar": "/dante.gif",
-    "bio": "Passionate software engineer with a love for creating elegant solutions to complex problems. I specialize in full-stack development with a focus on modern web technologies and user experience design.",
+    "bio": "Passionate software engineer with a love for creating elegant solutions to complex problems. I specialize in full-stack development with a focus on modern web and desktop technologies and user experience design.",
     "resume": "/resumeX.pdf"
   },
   "social": {
@@ -26,13 +26,10 @@
     "backend": [
       { "name": "Node.js", "level": 80, "description": "Built RESTful APIs and real-time applications using Express.js, implemented authentication, middleware, and database integration." },
       { "name": "Python", "level": 75, "description": "Developed web applications with Django and Flask, data analysis scripts, and automation tools. Experience with object-oriented programming." },
-      { "name": "PostgreSQL", "level": 70, "description": "Designed and optimized relational databases, wrote complex queries, and implemented data modeling for web applications." },
-      { "name": "MongoDB", "level": 65, "description": "Worked with NoSQL databases for document-based applications, implemented aggregation pipelines and data validation." },
-      { "name": "GraphQL", "level": 60, "description": "Built GraphQL APIs with type definitions, resolvers, and mutations. Implemented client-side query optimization." }
+      { "name": "PostgreSQL", "level": 70, "description": "Designed and optimized relational databases, wrote complex queries, and implemented data modeling for web applications." }
     ],
     "tools": [
       { "name": "Git", "level": 85, "description": "Version control with branching strategies, merge conflict resolution, and collaborative development workflows using GitHub." },
-      { "name": "Docker", "level": 70, "description": "Containerized applications for development and deployment, created multi-stage builds and docker-compose configurations." },
       { "name": "AWS", "level": 65, "description": "Deployed applications using EC2, S3, and Lambda. Configured CI/CD pipelines and managed cloud infrastructure." },
       { "name": "Jest", "level": 75, "description": "Wrote unit and integration tests for JavaScript applications, implemented test-driven development practices and code coverage." },
       { "name": "Figma", "level": 80, "description": "Created UI/UX designs, prototypes, and design systems. Collaborated with developers to implement pixel-perfect interfaces." }
@@ -86,21 +83,16 @@
   },
   "certifications": [
     {
-      "name": "AWS Cloud Practitioner",
-      "issuer": "Amazon Web Services",
+      "name": "ECA FullStack Development Bootcamp",
+      "issuer": "Education Centre of Australia",
       "date": "2024-03-15", 
-      "credential": "https://aws.amazon.com/certification/"
-    },
-    {
-      "name": "React Developer Certification",
-      "issuer": "Meta",
-      "date": "2024-01-20",
-      "credential": "https://developers.facebook.com/certification/"
+      "credential": "https://credsverse.com/credentials/56d1da01-f0bf-4019-b8d2-9d3528513960"
     }
+    
   ],
   "blog": {
     "enabled": true,
     "source": "dev.to",
-    "username": "alexjohnson"
+    "username": "berkaysenler"
   }
 }

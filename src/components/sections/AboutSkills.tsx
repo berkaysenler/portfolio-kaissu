@@ -85,7 +85,7 @@ export function AboutSkills() {
                     <h4 className="text-base font-mono text-white">{edu.degree}</h4>
                     <p className="text-violet-400 font-mono text-md">{edu.institution}</p>
                     <p className="text-md text-gray-400 font-mono">
-                      {edu.duration} • GPA: {edu.gpa}
+                      {edu.duration} 
                     </p>
                   </div>
                 ))}
@@ -142,9 +142,9 @@ export function AboutSkills() {
                         <p className="text-xs text-gray-400 font-mono">{cert.issuer}</p>
                       </div>
                       <div className="text-right">
-                        <span className="text-xs text-violet-400 font-mono">
+                        {/* <span className="text-xs text-violet-400 font-mono">
                           {new Date(cert.date).getFullYear()}
-                        </span>
+                        </span> */}
                         {cert.credential && (
                           <a 
                             href={cert.credential}
@@ -242,9 +242,9 @@ export function AboutSkills() {
                         <h3 className="text-sm sm:text-md font-mono font-bold text-white mb-1">
                           {skill.name}
                         </h3>
-                        <span className="text-xs sm:text-sm font-mono text-violet-400 mb-2 block">
+                        {/* <span className="text-xs sm:text-sm font-mono text-violet-400 mb-2 block">
                           {skill.level >= 90 ? "Expert" : skill.level >= 75 ? "Advanced" : skill.level >= 60 ? "Intermediate" : "Learning"}
-                        </span>
+                        </span> */}
                         {skill.description && (
                           <p className="text-xs font-mono text-gray-400 leading-relaxed break-words">
                             {skill.description}
