@@ -79,7 +79,12 @@
   ],
   "projects": {
     "selected": ["VU-AI-ASSISTANT", "NIT3213-Final-Assignment", "Gantt-Chart-Template", "html-css-kaissu-portfolio", "portfolio-kaissu"],
-    "github_username": "berkaysenler"
+    "github_username": "berkaysenler",
+    "overrides": {
+      "VU-AI-ASSISTANT": {
+        "homepage": "https://vu-ai-assistant.vercel.app"
+      }
+    }
   },
   "certifications": [
     {

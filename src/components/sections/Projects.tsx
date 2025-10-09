@@ -15,7 +15,8 @@ export function Projects() {
   
   const { repos, loading, error, refetch } = useGitHub({
     username: projects.github_username,
-    selected: projects.selected
+    selected: projects.selected,
+    overrides: projects.overrides
   });
 
   const displayedRepos = showAll ? repos : repos.slice(0, 6);
@@ -67,7 +68,7 @@ export function Projects() {
         {!loading && !error && repos.length > 0 && (
           <>
             <div className="w-full grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 md:gap-8 mb-16">
-              {displayedRepos.map((repo, index) => (
+              {displayedRepos.map((repo) => (
                 <ProjectCard
                   key={repo.id}
                   project={repo}
