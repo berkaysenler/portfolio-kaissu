@@ -6,8 +6,17 @@ import { TimelineItem } from '@/components/ui/TimelineItem';
 import { ANIMATIONS } from '@/utils/constants';
 import portfolioData from '@/data/config/portfolio.json';
 
+interface ExperienceData {
+  company: string;
+  position: string;
+  duration: string;
+  description: string;
+  technologies: string[];
+  achievements: string[];
+}
+
 export function Experience() {
-  const { experience } = portfolioData;
+  const { experience } = portfolioData as { experience: ExperienceData[] };
 
   return (
     <section id="experience" className="min-h-[50vh] flex items-center justify-center py-16 md:py-24 bg-gradient-to-b from-gray-900 to-black">
