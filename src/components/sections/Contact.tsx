@@ -6,6 +6,7 @@ import { Mail, MapPin, Send, CheckCircle, AlertCircle, Github, Linkedin, Twitter
 import { PixelButton } from '@/components/ui/PixelButton';
 import { ANIMATIONS } from '@/utils/constants';
 import portfolioData from '@/data/config/portfolio.json';
+import { emailService } from '@/utils/emailService';
 
 interface FormData {
   name: string;
@@ -39,16 +40,24 @@ export function Contact() {
     setStatus({ type: 'loading', message: 'Sending message...' });
 
     try {
-      await new Promise(resolve => setTimeout(resolve, 2000));
-      setStatus({ 
-        type: 'success', 
-        message: 'Message sent successfully! I\'ll get back to you soon.' 
+      await emailService.sendEmail({
+        from_name: formData.name,
+        from_email: formData.email,
+        subject: formData.subject,
+        message: formData.message,
+        to_name: personal.name
+      });
+
+      setStatus({
+        type: 'success',
+        message: 'Message sent successfully! I\'ll get back to you soon.'
       });
       setFormData({ name: '', email: '', subject: '', message: '' });
     } catch (error) {
-      setStatus({ 
-        type: 'error', 
-        message: 'Failed to send message. Please try again or contact me directly.' 
+      console.error('Email sending error:', error);
+      setStatus({
+        type: 'error',
+        message: 'Failed to send message. Please try again or contact me directly.'
       });
     }
   };

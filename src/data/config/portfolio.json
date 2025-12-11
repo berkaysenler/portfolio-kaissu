@@ -5,15 +5,14 @@
     "tagline": "Crafting digital experiences with clean code and creative solutions",
     "email": "berkaysenler229@gmail.com",
     "location": "Sydney, Australia",
-    "avatar": "/dante.gif",
+    "avatar": "/kaiport.jpeg",
     "bio": "Passionate software engineer with a love for creating elegant solutions to complex problems. I specialize in full-stack development with a focus on modern web and desktop technologies and user experience design.",
     "resume": "/resumeX.pdf"
   },
   "social": {
     "github": "https://github.com/berkaysenler",
     "linkedin": "https://linkedin.com/in/berkaysenler",
-    "twitter": "https://twitter.com/xkaissu",
-    "portfolio": "https://berkaysenler.dev"
+    "twitter": "https://twitter.com/xkaissu"
   },
   "skills": {
     "frontend": [
@@ -37,48 +36,28 @@
   },
   "experience": [
     {
-      "company": "Tech Startup Inc.",
-      "position": "Software Engineering Intern",
-      "duration": "Jun 2024 - Aug 2024",
-      "description": "Developed and maintained React applications, collaborated with cross-functional teams, and contributed to a 20% improvement in page load times.",
-      "technologies": ["React", "TypeScript", "Node.js", "PostgreSQL"],
-      "achievements": [
-        "Improved application performance by 20%",
-        "Implemented new user dashboard features",
-        "Contributed to design system documentation"
-      ]
-    },
-    {
-      "company": "University CS Department",
-      "position": "Teaching Assistant",
-      "duration": "Sep 2023 - May 2024",
-      "description": "Assisted in teaching introduction to programming courses, conducted lab sessions, and mentored students in software development best practices.",
-      "technologies": ["Python", "Java", "Git"],
-      "achievements": [
-        "Mentored 50+ students",
-        "Developed educational coding exercises",
-        "Maintained 95% student satisfaction rating"
-      ]
+      
     }
+    
   ],
   "education": [
     {
       "institution": "Victoria University",
       "degree": "Bachelor of Information Technology",
       "duration": "2022 - 2025",
-      "gpa": "3.8/4.0",
+      "gpa": "",
       "coursework": []
     },
     {
       "institution": "University of Yalova",
       "degree": "Bachelor of Computer Engineering",
       "duration": "2017 - 2022",
-      "gpa": "3.8/4.0",
+      "gpa": "",
       "coursework": []
     }
   ],
   "projects": {
-    "selected": ["VU-AI-ASSISTANT", "NIT3213-Final-Assignment", "Gantt-Chart-Template", "html-css-kaissu-portfolio", "portfolio-kaissu"],
+    "selected": ["VU-AI-ASSISTANT", "NIT3213-Final-Assignment", "Gantt-Chart-Template", "html-css-kaissu-portfolio", "portfolio-kaissu", "lol-player-summary"],
     "github_username": "berkaysenler",
     "overrides": {
       "VU-AI-ASSISTANT": {
@@ -96,8 +75,6 @@
     
   ],
   "blog": {
-    "enabled": true,
-    "source": "dev.to",
-    "username": "berkaysenler"
+    
   }
 }
