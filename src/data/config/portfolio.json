@@ -34,12 +34,7 @@
       { "name": "Figma", "level": 80, "description": "Created UI/UX designs, prototypes, and design systems. Collaborated with developers to implement pixel-perfect interfaces." }
     ]
   },
-  "experience": [
-    {
-      
-    }
-    
-  ],
+  "experience": [],
   "education": [
     {
       "institution": "Victoria University",
@@ -75,6 +70,6 @@
     
   ],
   "blog": {
-    
+    "enabled": false
   }
 }
