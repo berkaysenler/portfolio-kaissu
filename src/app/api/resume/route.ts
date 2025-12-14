@@ -4,20 +4,20 @@ import { join } from 'path';
 
 export async function GET(request: NextRequest) {
   try {
-    const filePath = join(process.cwd(), 'public', 'resume.pdf');
+    const filePath = join(process.cwd(), 'public', 'BerkaySenlerResume.docx');
     const fileBuffer = readFileSync(filePath);
 
     return new NextResponse(fileBuffer, {
       status: 200,
       headers: {
-        'Content-Type': 'application/pdf',
-        'Content-Disposition': 'inline; filename="Berkay_Senler_Resume.pdf"',
+        'Content-Type': 'application/vnd.openxmlformats-officedocument.wordprocessingml.document',
+        'Content-Disposition': 'attachment; filename="BerkaySenlerResume.docx"',
         'Content-Length': fileBuffer.length.toString(),
         'Cache-Control': 'public, max-age=3600',
       },
     });
   } catch (error) {
-    console.error('Error serving PDF:', error);
-    return new NextResponse('PDF not found', { status: 404 });
+    console.error('Error serving DOCX:', error);
+    return new NextResponse('DOCX not found', { status: 404 });
   }
 }

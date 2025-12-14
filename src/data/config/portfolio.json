@@ -7,7 +7,7 @@
     "location": "Sydney, Australia",
     "avatar": "/kaiport.jpeg",
     "bio": "Passionate software engineer with a love for creating elegant solutions to complex problems. I specialize in full-stack development with a focus on modern web and desktop technologies and user experience design.",
-    "resume": "/resumeX.pdf"
+    "resume": "/api/resume"
   },
   "social": {
     "github": "https://github.com/berkaysenler",
