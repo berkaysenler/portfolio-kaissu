@@ -51,15 +51,80 @@
       "coursework": []
     }
   ],
-  "projects": {
-    "selected": ["VU-AI-ASSISTANT", "NIT3213-Final-Assignment", "Gantt-Chart-Template", "html-css-kaissu-portfolio", "portfolio-kaissu", "lol-player-summary"],
-    "github_username": "berkaysenler",
-    "overrides": {
-      "VU-AI-ASSISTANT": {
-        "homepage": "https://vu-ai-assistant.vercel.app"
-      }
+  "projects": [
+    {
+      "id": "vu-ai-assistant",
+      "title": "VU AI Assistant",
+      "description": "AI-powered chatbot for Victoria University students, answering course-related questions using NLP and knowledge base integration.",
+      "image": null,
+      "color": "#8B5CF6",
+      "tech": ["React", "TypeScript", "Python", "OpenAI"],
+      "tags": ["AI", "Full Stack"],
+      "github": "https://github.com/berkaysenler/VU-AI-ASSISTANT",
+      "live": "https://vu-ai-assistant.vercel.app",
+      "featured": true
+    },
+    {
+      "id": "gantt-chart",
+      "title": "Gantt Chart Template",
+      "description": "Interactive Gantt chart web application for project management and scheduling with drag-and-drop task management.",
+      "image": null,
+      "color": "#06B6D4",
+      "tech": ["JavaScript", "HTML", "CSS"],
+      "tags": ["Productivity"],
+      "github": "https://github.com/berkaysenler/Gantt-Chart-Template",
+      "live": null,
+      "featured": false
+    },
+    {
+      "id": "nit3213-android",
+      "title": "NIT3213 Android App",
+      "description": "Native Android application built for the final assignment, featuring REST API integration, authentication, and RecyclerView listing.",
+      "image": null,
+      "color": "#10B981",
+      "tech": ["Kotlin", "Android", "REST API"],
+      "tags": ["Mobile"],
+      "github": "https://github.com/berkaysenler/NIT3213-Final-Assignment",
+      "live": null,
+      "featured": false
+    },
+    {
+      "id": "portfolio-kaissu",
+      "title": "Portfolio Kaissu",
+      "description": "First iteration of my personal portfolio built with vanilla HTML, CSS and JS — showcasing projects and skills.",
+      "image": null,
+      "color": "#F59E0B",
+      "tech": ["HTML", "CSS", "JavaScript"],
+      "tags": ["Portfolio"],
+      "github": "https://github.com/berkaysenler/portfolio-kaissu",
+      "live": "https://berkaissu.com",
+      "featured": true
+    },
+    {
+      "id": "html-css-portfolio",
+      "title": "HTML/CSS Portfolio",
+      "description": "Static portfolio website focused on clean layout and typography using semantic HTML and modern CSS techniques.",
+      "image": null,
+      "color": "#EF4444",
+      "tech": ["HTML", "CSS"],
+      "tags": ["Portfolio"],
+      "github": "https://github.com/berkaysenler/html-css-kaissu-portfolio",
+      "live": null,
+      "featured": false
+    },
+    {
+      "id": "lol-player-summary",
+      "title": "LoL Player Summary",
+      "description": "League of Legends player stats viewer pulling from Riot Games API — displays rank, champions, and recent match history.",
+      "image": null,
+      "color": "#3B82F6",
+      "tech": ["JavaScript", "Riot API"],
+      "tags": ["Gaming", "API"],
+      "github": "https://github.com/berkaysenler/lol-player-summary",
+      "live": null,
+      "featured": true
     }
-  },
+  ],
   "certifications": [
     {
       "name": "ECA FullStack Development Bootcamp",
