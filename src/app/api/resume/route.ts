@@ -14,6 +14,8 @@ export async function GET(request: NextRequest) {
         'Content-Disposition': 'inline; filename="BerkaySenlerResume.pdf"',
         'Content-Length': fileBuffer.length.toString(),
         'Cache-Control': 'no-cache, no-store, must-revalidate',
+        'CDN-Cache-Control': 'no-store',
+        'Vercel-CDN-Cache-Control': 'no-store',
       },
     });
   } catch (error) {
