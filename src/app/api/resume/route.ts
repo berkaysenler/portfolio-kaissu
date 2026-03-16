@@ -4,14 +4,14 @@ import { join } from 'path';
 
 export async function GET(request: NextRequest) {
   try {
-    const filePath = join(process.cwd(), 'public', 'BerkaySenlerResume.pdf');
+    const filePath = join(process.cwd(), 'public', 'BerkayResume.pdf');
     const fileBuffer = readFileSync(filePath);
 
     return new NextResponse(fileBuffer, {
       status: 200,
       headers: {
         'Content-Type': 'application/pdf',
-        'Content-Disposition': 'inline; filename="BerkaySenlerResume.pdf"',
+        'Content-Disposition': 'inline; filename="BerkayResume.pdf"',
         'Content-Length': fileBuffer.length.toString(),
         'Cache-Control': 'no-cache, no-store, must-revalidate',
         'CDN-Cache-Control': 'no-store',
