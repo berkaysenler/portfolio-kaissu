@@ -70,7 +70,7 @@
       "description": "M365 Admin Tools with Syncro API Integration",
       "image": null,
       "color": "#06B6D4",
-      "tech": ["Python","PowerShell"],
+      "tech": ["Python","PowerShell", "Graph API", "Exchange Online"],
       "tags": ["Productivity", "Desktop"],
       "github": "https://github.com/berkaysenler/M365-Tools",
       "live": null,
@@ -95,10 +95,10 @@
       "image": null,
       "color": "#F59E0B",
       "tech": ["HTML", "CSS", "JavaScript"],
-      "tags": ["Cloudflare API", "Domain Rules"],
+      "tags": ["Portfolio"],
       "github": "https://github.com/berkaysenler/portfolio-kaissu",
       "live": null,
-      "featured": true
+      "featured": false
     },
     {
       "id": "cloudflare-rule-manager",
@@ -107,10 +107,10 @@
       "image": null,
       "color": "#EF4444",
       "tech": ["Python"],
-      "tags": ["Portfolio"],
+      "tags": ["Cloudflare", "Domain Rules", "Cloudflare API"],
       "github": "https://github.com/berkaysenler/cloudflare-rule-manager",
       "live": null,
-      "featured": false
+      "featured": true
     },
     {
       "id": "lol-player-summary",
@@ -122,7 +122,7 @@
       "tags": ["Gaming", "API"],
       "github": "https://github.com/berkaysenler/lol-player-summary",
       "live": null,
-      "featured": true
+      "featured": false
     }
   ],
   "certifications": [
