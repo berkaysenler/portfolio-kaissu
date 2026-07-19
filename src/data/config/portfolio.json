@@ -65,16 +65,16 @@
       "featured": true
     },
     {
-      "id": "gantt-chart",
-      "title": "Gantt Chart Template",
-      "description": "Interactive Gantt chart web application for project management and scheduling with drag-and-drop task management.",
+      "id": "M365-Tools",
+      "title": "M365 Admin Tools",
+      "description": "M365 Admin Tools with Syncro API Integration",
       "image": null,
       "color": "#06B6D4",
-      "tech": ["JavaScript", "HTML", "CSS"],
-      "tags": ["Productivity"],
-      "github": "https://github.com/berkaysenler/Gantt-Chart-Template",
+      "tech": ["Python","PowerShell"],
+      "tags": ["Productivity", "Desktop"],
+      "github": "https://github.com/berkaysenler/M365-Tools",
       "live": null,
-      "featured": false
+      "featured": true
     },
     {
       "id": "nit3213-android",
@@ -95,20 +95,20 @@
       "image": null,
       "color": "#F59E0B",
       "tech": ["HTML", "CSS", "JavaScript"],
-      "tags": ["Portfolio"],
+      "tags": ["Cloudflare API", "Domain Rules"],
       "github": "https://github.com/berkaysenler/portfolio-kaissu",
-      "live": "https://berkaissu.com",
+      "live": null,
       "featured": true
     },
     {
-      "id": "html-css-portfolio",
-      "title": "HTML/CSS Portfolio",
-      "description": "Static portfolio website focused on clean layout and typography using semantic HTML and modern CSS techniques.",
+      "id": "cloudflare-rule-manager",
+      "title": "Cloudflare rule management tool",
+      "description": "Simple rule/template management - Cloudflare",
       "image": null,
       "color": "#EF4444",
-      "tech": ["HTML", "CSS"],
+      "tech": ["Python"],
       "tags": ["Portfolio"],
-      "github": "https://github.com/berkaysenler/html-css-kaissu-portfolio",
+      "github": "https://github.com/berkaysenler/cloudflare-rule-manager",
       "live": null,
       "featured": false
     },
